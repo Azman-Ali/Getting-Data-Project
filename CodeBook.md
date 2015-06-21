@@ -5,43 +5,39 @@
 ##fileUrl 
 DEfine the datasource url for download ("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip")
 
-#subject_train 
+##subject_train 
 Defined Table to store objects from subject_train.txt
 
-#X_train 
+##X_train 
 Defined Table to store objects from X_train.txt
 
-#y_train 
+##y_train 
 Defined Table to store objects from Y_train.txt
 
-#subject_test
+##subject_test
 Defined Table to store objects from subject_test.txt
 
-#X_test 
+##X_test 
 Defined Table to store objects from X_test.txt
 
-#y_train 
+##y_train 
 Defined Table to store objects from Y_test.txt
 
-#TrainData 
+##TrainData 
 Define table that combine subject_train,y_train,X_train
 
-#TestData 
+##TestData 
 Define table that combine subject_test,y_test,X_test
 
-#FullData 
+##FullData 
 Full Dataset combining TrainData & TestData
 
-#TidyDataset1
+##TidyDataset1
 New Dataset Extracting only mean and Std Deviation
 
-#activity_labels: 
+##activity_labels: 
 Relabelling all activities based on activity label given (ie 1=WALKING, 2=WALKING_UPSTAIRS etc)
 
-#TidyDataset2
+##TidyDataset2
 New Dataset Extracting average based on activities and ID
-
-
-
-
 

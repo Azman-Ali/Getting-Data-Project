@@ -53,10 +53,10 @@ New Dataset Extracting average based on activities and ID
 
 # List of Features from final dataset
 *  id            activity                       
- * [3] tBodyAcc.std...X                tBodyAcc.std...Y               
- * [5] tBodyAcc.std...Z                tGravityAcc.std...X            
- * [7] tGravityAcc.std...Y             tGravityAcc.std...Z            
- * [9] tBodyAccJerk.std...X            tBodyAccJerk.std...Y           
+* [3] tBodyAcc.std...X                tBodyAcc.std...Y               
+* [5] tBodyAcc.std...Z                tGravityAcc.std...X            
+* [7] tGravityAcc.std...Y             tGravityAcc.std...Z            
+* [9] tBodyAccJerk.std...X            tBodyAccJerk.std...Y           
 * [11] tBodyAccJerk.std...Z            tBodyGyro.std...X              
 * [13] tBodyGyro.std...Y               tBodyGyro.std...Z              
 * [15] tBodyGyroJerk.std...X           tBodyGyroJerk.std...Y          

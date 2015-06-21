@@ -26,3 +26,16 @@ This script was tasked for the following :
 * Uses descriptive activity names to name the activities in the data set
 * Appropriately labels the data set with descriptive activity names.
 * Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+## How the Script works
+The script run_analysis.R can be run from R console without any input parameters.
+Briefly script will process raw data based on following sequence :
+* Import library plyr
+* Create a directory "data" as its workspace
+* Automatically Download raw data from the data sources (refer above link)
+* (Note that the data was downloaded as .zip files, user needs to manually unzip this file in data directory (maintaining all file path from the zip file (/Datasets/UCI HAR Dataset/)
+* The script will transform  identified files into table (subject_test, subject train,X_test, y_test, X_train and y_train) and subsequently merged them into a single dataset
+* The script will Extract only with mean and Std Deviation following which, it will relabel activities from respective code to description (such as 1=WALKING etc)
+* The first dataset(TidayDataset1) will then be produced
+* The second dataset (TidyDataset2) will be created, showing only the average value based on id and activities
+* 

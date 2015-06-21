@@ -33,7 +33,7 @@ Briefly script will process raw data based on following sequence :
 * Import library plyr
 * Create a directory "data" as its workspace
 * Automatically Download raw data from the data sources (refer above link)
-* (Note that the data was downloaded as .zip files, user needs to manually unzip this file in data directory (maintaining all file path from the zip file (/Datasets/UCI HAR Dataset/)
+* (Note that the data will be downloaded as a .zip file, user needs to manually unzip this file in data directory (maintaining all file path from the zip file (/Datasets/UCI HAR Dataset/)
 * The script will transform  identified files into table (subject_test, subject train,X_test, y_test, X_train and y_train) and subsequently merged them into a single dataset
 * The script will Extract only with mean and Std Deviation following which, it will relabel activities from respective code to description (such as 1=WALKING etc)
 * The first dataset(TidayDataset1) will then be produced

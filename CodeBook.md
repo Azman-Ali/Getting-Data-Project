@@ -3,7 +3,7 @@
 
 
 ##fileUrl 
-DEfine the datasource url for download ("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip")
+Define the datasource url for download ("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip")
 
 ##subject_train 
 Defined Table to store objects from subject_train.txt
@@ -40,4 +40,15 @@ Relabelling all activities based on activity label given (ie 1=WALKING, 2=WALKIN
 
 ##TidyDataset2
 New Dataset Extracting average based on activities and ID
+
+#Dataset
+
+
+#List of Activities
+*1 WALKING
+*2 WALKING_UPSTAIRS
+*3 WALKING_DOWNSTAIRS
+*4 SITTING
+*5 STANDING
+*6 LAYING
 
